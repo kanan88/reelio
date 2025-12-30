@@ -1,5 +1,3 @@
-import { icons } from '@/constants/icons'
-import { images } from '@/constants/images'
 import { Tabs } from 'expo-router'
 import React from 'react'
 import {
@@ -9,6 +7,9 @@ import {
   Text,
   View
 } from 'react-native'
+
+import { icons } from '@/constants/icons'
+import { images } from '@/constants/images'
 
 const TabIcon = ({
   focused,
